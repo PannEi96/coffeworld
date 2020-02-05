@@ -1,0 +1,109 @@
+@font-face{
+	font-family: "Zhi";
+	src:url(fonts/Zhi_Mang_Xing/ZhiMangXing-Regular.ttf);
+}
+#header_logo_text{
+	font-family: "Zhi";
+	margin-left: 80px;
+	
+}
+.clear{
+	clear: both;
+}
+div#header i{
+	float:left;
+}
+*{
+	margin: 0px;
+	padding: 0;
+}
+div#navbar{
+
+	width:100%;
+	background-color: #4E342E;
+	height: 50px;
+}
+div#navbar ul{
+	margin-top: 20px;
+	padding-left: 50px;
+	padding-top: 13px;
+}
+div#navbar ul li{
+	list-style: none;
+	float:left;
+}
+div#navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 9px 30px;
+}
+div#navbar ul li a:hover,a.active{
+	background-color: #5D4037;
+}
+div#slider img{
+	width: 100%;
+	margin:0 auto;
+	height: 300px;
+	object-fit:cover;
+}
+@font-face 
+{
+  font-family:'Unicode';
+  src: url('https://cdn.rawgit.com/LeonarAung/MyanmarFont/6cf1262f/mon3.woff') format('woff'), url('https://cdn.rawgit.com/LeonarAung/MyanmarFont/6cf1262f/mon3.ttf') format('ttf');
+}
+div.quote{
+	font-family: "Unicode";
+	position: absolute;
+	top: 30%;
+	left:18%;
+	font-size: 30px;
+	background-color: rgba(255,255,255,0.5);
+	padding: 30px;
+}
+.content{
+	border: 1px solid;
+	margin-bottom: 20px;
+	
+
+}
+.Shop{
+	text-align:center;
+	margin-top: 20px;
+}
+div.contentimg ul img  {
+	width:10%;
+	height: 100%;
+	float:left;
+	margin: 20px 20px;
+	/*list-style-type: none;*/
+}
+.choose{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+div.contentimg h3 p {
+	width:60%;
+	height: 100%;
+	float:left;
+	margin-left: 100px;
+	margin-top: 100%;
+	text-align: left;
+	
+	
+}
+.menu {
+	text-align: center;
+	margin-top: 20%;
+}
+.pagefooter{
+	margin-top: 30px;
+	margin-left: 20%;
+}
+div.image ul img{
+	width:20%;
+	height: 100%;
+	margin-left: 50px;
+	/*margin-right: 20px;*/
+	margin-top: 5%;
+}
